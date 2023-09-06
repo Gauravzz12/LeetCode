@@ -1,0 +1,33 @@
+# Eclipse project files
+.metadata/
+
+# Compiled class files
+bin/
+
+# .classpath and .project files
+.classpath
+.project
+.class
+
+# Generated source files and folders
+gen/
+
+# .settings directory
+.settings/
+
+# Local workspace settings
+.settings/org.eclipse.core.resources.prefs
+
+# .cache directory
+.cache/
+
+# Logs and other temporary files
+*.log
+*.tmp
+*.bak
+
+# External tool builders
+.externalToolBuilders/
+
+# Target directory
+target/
