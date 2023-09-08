@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Strings_Hashing;
 import java.util.*;
 class Solution {
     public boolean containsDuplicate(int[] nums) {

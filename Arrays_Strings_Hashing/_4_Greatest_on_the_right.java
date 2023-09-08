@@ -1,3 +1,4 @@
+package Arrays_Strings_Hashing;
 class Solution {
     public int[] replaceElements(int[] arr) {
         int n=arr.length;

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays_Strings_Hashing;
 
 class Solution {
     public int[] getConcatenation(int[] nums) {

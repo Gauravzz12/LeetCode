@@ -1,3 +1,4 @@
+package Arrays_Strings_Hashing;
 class Solution {
     public boolean isSubsequence(String s, String t) {
         int S=s.length();
