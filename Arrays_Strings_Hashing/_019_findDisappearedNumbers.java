@@ -1,9 +1,16 @@
-package Arrays_Strings_Hashing;
-
-public class _019_findDisappearedNumbers {
-
-	public _019_findDisappearedNumbers() {
-		// TODO Auto-generated constructor stub
-	}
-
+class Solution {
+       public List<Integer> findDisappearedNumbers(int[] nums) {
+        List<Integer> result = new ArrayList<>();
+        for(int i = 0 ; i < nums.length; i++){
+            if(nums[Math.abs(nums[i]) - 1] > 0)
+                nums[Math.abs(nums[i]) - 1] = -nums[Math.abs(nums[i]) - 1];
+        }
+        
+        for(int i = 0 ; i <nums.length; i++){
+            if(nums[i] > 0)
+                result.add(i+1);
+        }
+        
+        return result;
+    }
 }
